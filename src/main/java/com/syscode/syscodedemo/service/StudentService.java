@@ -19,7 +19,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 /*
-* Remote call will run outside the transactional context, because of autocommit settings in application.yml.
+* Remote service call will run outside the transactional context, because of autocommit settings in application.yml.
 */
 @Slf4j
 @Service
